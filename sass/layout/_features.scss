@@ -7,9 +7,6 @@
   }
 }
 
-// .features__list {
-//   display: flex;
-// }
 .feature__item {
   min-width: 270px;
   
@@ -29,17 +26,6 @@
     margin-right: 30px;
   }
 }
-// .feature__item::before {
-//   display: block;
-//   content: "";
-//   background-color: var(--secondary-background-color);
-//   background-repeat: no-repeat;
-//   background-position: center;
-
-//   width: 270px;
-//   height: 120px;
-//   margin-bottom: 30px;
-// }
 
 .icon-antena::before {
   background-image: url(../img/antenna.png);
@@ -53,11 +39,6 @@
 .icon-astronaut::before {
   background-image: url(../img/astronaut.png);
 }
-
-// .feature__item:not(:last-child) {
-//   margin-right: 30px;
-// }
-
 
 .feature__title {
   font-weight: 700;
