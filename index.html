@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
-
+<!-- ==== Header ==== -->
     <header class="header">
       <!-- Site navigation container -->
       <div class="container">
@@ -286,42 +286,42 @@
           <ul class="clients-list list">
             <li class="clients-list__item">
               <a href="" class="clients-link">
-                <svg class="clients-icon">
+                <svg class="clients-link__icon">
                   <use href="./img/sprite.svg#icon-client1"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-list__item">
               <a href="" class="clients-link">
-                <svg class="clients-icon">
+                <svg class="clients-link__icon">
                   <use href="./img/sprite.svg#icon-client2"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-list__item">
               <a href="" class="clients-link">
-                <svg class="clients-icon">
+                <svg class="clients-link__icon">
                   <use href="./img/sprite.svg#icon-client3"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-list__item">
               <a href="" class="clients-link">
-                <svg class="clients-icon">
+                <svg class="clients-link__icon">
                   <use href="./img/sprite.svg#icon-client4"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-list__item">
               <a href="" class="clients-link">
-                <svg class="clients-icon">
+                <svg class="clients-link__icon">
                   <use href="./img/sprite.svg#icon-client5"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-list__item">
               <a href="" class="clients-link">
-                <svg class="clients-icon">
+                <svg class="clients-link__icon">
                   <use href="./img/sprite.svg#icon-client6"></use>
                 </svg>
               </a>
@@ -412,7 +412,8 @@
       <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
       <form action="#" class="modal__form">
 
-        <label class="modal__form-input-label">Имя
+        <label class="modal__form-input-label">
+          <span class="input-label__name">Имя</span> 
           <span class="modal__form-input-wrapper">
             <input type="text" name="user-name" class="modal__form-input">
             <svg class="modal__form-icon name-icon">
@@ -444,7 +445,7 @@
       </label>
 
         <input type="checkbox" name="user-policy" id="policy-check" class="modal__form-check-policy visually-hidden">
-        <label for="policy-check" class="modal__form-label-policy">Соглашаюсь с рассылкой и принимаю
+        <label for="policy-check" class="modal__form-label-policy">Соглашаюсь с рассылкой и принимаю &nbsp;
           <a href="" class="modal__form-label-policy-link link"> Условия договора</a>
         </label>
         <button class="modal__form-btn">Отправить</button>

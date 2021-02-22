@@ -1,0 +1,14 @@
+/* Main flexbox for header */
+.header {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(236, 236, 236, 1);
+
+  & .container {
+    display: flex;
+  }
+} 
+// .header .container {
+//   display: flex;
+// }
+/* ====End header=== */
